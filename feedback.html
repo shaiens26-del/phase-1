@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Students Portal</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>FEEDBACK FORM</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOMEPAGES</a></li>
+            <li><a href="student.html">PROFILE</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="feedback.html">FEEDBACK</a></li>
+            <li><a href="grades.html">GRADES TABLE</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <h3>Share Your Feedback</h3>
+
+        <p>
+            Please fill in the form below to show your
+            thoughts about the course and the portal.
+        </p>
+
+        <form>
+
+            <!-- NAME -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+
+
+            <!-- PHONE -->
+            <label for="phone">Phone no:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+
+            <!-- EMAIL -->
+            <label for="email">Email id:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+
+            <!-- GENDER -->
+            <p>Gender:</p>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+
+            <hr>
+
+
+            <!-- COURSE -->
+            <label for="course">Select Course:</label>
+
+            <select id="course" name="course">
+              <option value="" selected disabled>select your course</option>
+                <option value="web_development">Web Development</option>
+                <option value="dbms">DBMS</option>
+                <option value="programming_fundamentals">
+                    Programming Fundamentals
+                </option>
+                <option value="computer_fundamentals">
+                    Computer Fundamentals
+                </option>
+            </select>
+
+            <hr>
+
+
+            <!-- FEEDBACK -->
+            <label for="feedback">Your Feedback:</label>
+            <br>
+
+            <textarea
+                id="feedback"
+                name="feedback"
+                placeholder="Write your feedback here"></textarea>
+
+            <hr>
+
+
+            <!-- RATING -->
+            <label for="rating">Rate the Portal:</label>
+
+            <select id="rating" name="rating" >
+              <option value="" selected disabled>Rate my page</option>
+                <option value="5_star">Excellent</option>
+                <option value="4_star">Good</option>
+                <option value="3_star">Bad</option>
+            </select>
+
+            <br><br>
+
+
+            <!-- CHECKBOX -->
+            <input type="checkbox" id="recommend" name="recommend" value="yes">
+            <label for="recommend">
+                I would recommend this portal to other students.
+            </label>
+
+            <br><br>
+
+
+            <!-- SUBMIT -->
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        © 2026 Academic Portal. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
